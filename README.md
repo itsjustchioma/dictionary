@@ -7,8 +7,11 @@ Please read the following blog post for more details on this project:
 
 # Features of the dictionary
 1. Transcription: This feature enables users to turn spoken words or audio into written text.
+
 2. Pronunciation: This dictionary features audio pronunciations for every word.
+
 3. Part of speech: It contains every word's part of speech.
+
 4. Synonyms: Each word's synonyms are listed in this dictionary.
 
 # Demo 
