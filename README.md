@@ -1,5 +1,5 @@
 # Dictionary
-A straightforward dictionary created with Javascript, HTML, and CSS to demonstrate that a project is much more than simply code.
+A straightforward dictionary created with HTML, CSS, and Javascript to demonstrate that a project is much more than simply code.
 
 Simply type your chosen words into the dictionary to view the results.
 
