@@ -103,8 +103,9 @@ section a {
   margin-right: 3rem;
   overflow: auto;
   height: 50vh;
-  -ms-overflow-style: none; /* IE and Edge */
+  -ms-overflow-style: none;
   scrollbar-width: none;
+  width: 80%;
 }
 
 .info-cont::-webkit-scrollbar {
