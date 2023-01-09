@@ -101,10 +101,10 @@ section a {
 .info-cont {
   margin-left: 3rem;
   margin-right: 3rem;
-  overflow: auto;
+  overflow-x: hidden;
   height: 50vh;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  /* -ms-overflow-style: none; */
+  /* scrollbar-width: none; */
   width: 80%;
 }
 
@@ -114,6 +114,13 @@ section a {
 
 .syn-block {
   margin-right: 3rem;
+}
+
+
+.syns {
+  word-break: normal;
+  overflow-wrap: break-word;
+  /* word-break: break-all; */
 }
 
 .transcription {
