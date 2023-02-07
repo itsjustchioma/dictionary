@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Voces&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Icons/dictionary.png" type="image/x-icon">
+    <title>Dictionary</title>
+</head>
+<body>
+    <main>
+        <!-- SEARCH PAGE -->
+        <center>
+            <section data-page="home" id="home" class="active" >
+                <h1>My Dictionary</h1>
+                <input type="text"  id="userInput" placeholder="search here" min="2" required autofocus autocomplete="on" class="search-bar"> 
+                <br><br><br><br><br>
+                <p class="inputError">Please enter a word</p>
+                <a href="#other" data-role="link" class="submit-btn">Search </a>
+            </section>
+        </center>
+    
+         <!-- SPINNER -->
+        <div class="spinner-container">
+            <div class="spinner"></div>
+        </div>
+        
+        <!-- DEFINITION AND INFORMATION PAGE -->
+            <section data-page="other" id="other" class="df-sec">
+                <center>
+                    <center><h1 class="searched-word"></h1>
+                        <div class="info-cont2"></center>
+                            <br><br> 
+                        <p class="transcription"></p>
+                        <img src="./Icons/volume-up.png" alt="" width="20px" height="20px" class="img-mic">
+                    </div>
+                </center>
+                <br>    <br>
+                <div class="info-cont">
+                    <p class="p-o-s"></p>
+                    <br>
+                    <div class="dd">
+                        <p class="ddf"><b>DEFINITIONS</b></p>
+                        <p class="no-of-defs"></p>
+                    </div>
+                    <p class="definitions"></p>
+                    <br>
+                    <div  class="want-more">
+                        <h3 class="click-btn">MORE DEFINITIONS </h3>
+                        <p class="more-defs"></p>
+                        <br> 
+                    </div>
+                    <div class="syn-block">
+                        <p class="ssn"><b>SYNONYMS</b></p>
+                        <p class="syns"></p>
+                    </div>
+                </div>
+                <center><p class="error-msg">Sorry pal, an error has occurred. Please try again</p></center>
+                <!-- </div> -->
+                <br><br><br>
+               <center> <p><a href="#home" data-role="link" class="go-home" onClick="window.location.reload(true)">GO TO HOME</a></p></center>
+            </section>
+
+            <!-- Y -->
+    </main>
+   
+    <script src="script.js"></script>
+</body>
+</html>
